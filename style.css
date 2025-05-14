@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    padding: 25px;
+    color: black;
+}
+
+li{
+    padding: 25px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+a:hover{
+    background-color: burlywood;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
+}
